@@ -10,7 +10,7 @@ let inimigos = [];
 let intervaloSpawn = 60;
 let contadorFrames = 0;
 
-let pontuacao = 48;
+let pontuacao = 0;
 let fimDeJogo = false;
 let nivelAumentado = false;
 let vidas = 3;
@@ -191,7 +191,7 @@ function reiniciarJogo() {
   inimigos = [];
   numeroLuas = 3;
   velocidadeRotacao = 0.05;
-  tamanhoLua = 40;
+  tamanhoLua = 25;
   angulo = 0;
   fimDeJogo = false;
   nivelAumentado = false;
