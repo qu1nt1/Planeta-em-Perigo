@@ -105,8 +105,8 @@ function draw() {
         if (pontuacao % 50 === 0) {
           nivelAumentado = true;
           somNivelUp.play();
-          velocidadeInimigo += 0.2;
-          intervaloSpawn = max(20, intervaloSpawn - 5);
+          velocidadeInimigo += 0.3;
+          intervaloSpawn = max(10, intervaloSpawn - 6);
         }
         break;
       }
