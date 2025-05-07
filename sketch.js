@@ -102,7 +102,7 @@ function draw() {
         inimigos.splice(i, 1);
         pontuacao++;
 
-        if (pontuacao % 50 === 0) {
+        if (pontuacao % 25 === 0) {
           nivelAumentado = true;
           somNivelUp.play();
           velocidadeInimigo += 0.3;
